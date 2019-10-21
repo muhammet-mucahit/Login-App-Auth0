@@ -10,7 +10,7 @@
       <button class="btn btn-primary m-3" @click="callApi('public')">Public</button>
       <button class="btn btn-primary m-3" @click="callApi('private')">Private</button>
       <button class="btn btn-primary m-3" @click="callApi('private-scoped')">Private-Scoped</button>
-      <button class="btn btn-primary m-3" @click="callApi('resources')">Resources</button>
+      <button class="btn btn-primary m-3" @click="callApi('resources')">Resources-With-JWT</button>
       <br />
       <input v-model="parameter" class="m-3" placeholder="Enter User ID:" />
       <button
